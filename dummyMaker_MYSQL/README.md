@@ -24,8 +24,8 @@ poetry install
 poetry run python tests/main.py
 `  
 ## Tree
-![title](http://)   
+![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/dev/dummyMaker_MYSQL/image/image.png)   
 
 
 ## ERD
-![title](http://)   
+![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/dev/dummyMaker_MYSQL/image/ERD.png)   
