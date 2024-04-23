@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dummydatamaker-mysql"
+name = "dummymaker-mysql"
 version = "0.1.0"
 description = ""
 authors = ["JoonHoSeong <joonho1366@gmail.com>"]
@@ -7,11 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-mypysql = "^0.1.7"
-sqlalchemy = "^2.0.29"
 faker = "^24.11.0"
 faker-airtravel = "^0.4"
-tqdm = "^4.66.2"
+sqlalchemy = "^2.0.29"
+mypysql = "^0.1.7"
 
 
 [build-system]

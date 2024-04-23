@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy import MetaData
 
-from tools.control_table import *
-from tools.dummy_generator import *
+from dummymaker_mysql.control_table import *
+from dummymaker_mysql.dummy_generator import *
 
 def run_create_dummy(select_table, fake_data_num, method, engine, metadata) :
     if  method :
