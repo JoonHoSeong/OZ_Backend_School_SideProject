@@ -13,8 +13,6 @@
 4. 더미데이터 생성시마다 데이터를 전부 삭제하고 새로 세팅할지, 추가할지를 지정할 수 있어야함.
 5. 하드코딩이 아닌 SQLAlchemy를 통해 각 테이블과 컬럼의 조건 및 이름을 받아서 생성 할 수 있어야함
 
-## 한계점
-
 
 ## Usages
 1. Clone the project into your local repository.
@@ -23,11 +21,12 @@
 `
 poetry install
 `  
-4. Run Program  
+4. Enter the desired command in command.json  
+5. Run Program  
 `
 poetry run python tests/main.py
 `  
-## [제작과정 Blog](https://slowprogramer.tistory.com/entry/dummyDataMkaer-SQLAlcehmy%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%94%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%83%9D%EC%84%B1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-MySQL)
+## [제작과정 Blog](https://slowprogramer.tistory.com/entry/dummyDataMkaer-SQLAlcehmy%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%94%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%83%9D%EC%84%B1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-MySQL)(작성중)
 
 ## Tree
 ![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/main/dummyMaker_MYSQL/image/image.png)   
