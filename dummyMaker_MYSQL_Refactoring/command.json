@@ -1,0 +1,7 @@
+
+{ 
+    "command" : "view",
+    "_comment" : "Command : insert(추가),new_insert(삭제후 추가), view(조회)",
+    "dummy_num" : 10,
+    "table_names" : "airport, employee, test"
+}

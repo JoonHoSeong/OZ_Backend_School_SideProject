@@ -10,6 +10,7 @@ python = "^3.12"
 sqlalchemy = "^2.0.30"
 faker = "^25.1.0"
 mypysql = "^0.1.7"
+ipykernel = "^6.29.4"
 
 
 [build-system]

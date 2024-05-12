@@ -4,7 +4,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)![sqlalchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)![poetry](https://img.shields.io/badge/poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)![python](https://img.shields.io/badge/python-1D9FD7?style=for-the-badge&logo=python&logoColor=white)
 ![Faker](https://img.shields.io/badge/Faker-3B66BC?style=for-the-badge&logo=&logoColor=white)
 ## 👤멤버 구성
-[JoonHoSeong](https://github.com/JoonHoSeong)
+[JoonHoSeong](https://github.com/JoonHoSeong)(support by GPT4)
 
 ## Case
 1. MySQL의 Database에 14개의 테이블을 생성함.
