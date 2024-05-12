@@ -29,7 +29,7 @@ poetry run python tests/main.py
 ## [제작과정 Blog](https://slowprogramer.tistory.com/entry/dummyDataMkaer-SQLAlcehmy%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%94%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%83%9D%EC%84%B1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-MySQL)(작성중)
 
 ## Tree
-![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/main/dummyMaker_MYSQL/image/image.png)   
+![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/main/dummyMaker_MYSQL_Refactoring/images/tree.png)   
 
 
 ## ERD
