@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dummymaker-mysql"
+name = "dummymaker-mysql-refactoring"
 version = "0.1.0"
 description = ""
 authors = ["JoonHoSeong <joonho1366@gmail.com>"]
@@ -7,11 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-faker = "^24.11.0"
-faker-airtravel = "^0.4"
-sqlalchemy = "^2.0.29"
+sqlalchemy = "^2.0.30"
+faker = "^25.1.0"
 mypysql = "^0.1.7"
-ipykernel = "^6.29.4"
 
 
 [build-system]

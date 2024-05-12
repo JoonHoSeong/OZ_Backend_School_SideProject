@@ -1,0 +1,105 @@
+{'name': 'airline_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'iata', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=2), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airlinename', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=30), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'base_airport', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airplane_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'capacity', 'type': MEDIUMINT(unsigned=True), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'type_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airline_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'type_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'identifier', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=50), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'description', 'type': TEXT(charset='utf8mb4', collation='utf8mb4_unicode_ci'), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'airport_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'iata', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=3), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'icao', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=4), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'name', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=50), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airport_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'name', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=50), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'city', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=50), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'country', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=50), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'latitude', 'type': DECIMAL(precision=11, scale=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'longitude', 'type': DECIMAL(precision=11, scale=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airport_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'hops', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'booking_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'flight_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'seat', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=4), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'passenger_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'price', 'type': DECIMAL(precision=10, scale=2), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'employee_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'firstname', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'lastname', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'birthdate', 'type': DATE(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'sex', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=1), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'street', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'city', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'zip', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'country', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'emailaddress', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=120), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'telephoneno', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=30), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'salary', 'type': DECIMAL(precision=8, scale=2), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'department', 'type': ENUM('Marketing', 'Buchhaltung', 'Management', 'Logistik', 'Flugfeld', charset='utf8mb4', collation='utf8mb4_unicode_ci'), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'username', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=20), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'password', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=32), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'flight_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'flightno', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'from', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'to', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'departure', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'arrival', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airline_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airplane_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'flight_log_id', 'type': INTEGER(unsigned=True), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'log_date', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'user', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'flight_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'flightno_old', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'flightno_new', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'from_old', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'to_old', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'from_new', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'to_new', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'departure_old', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'arrival_old', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'departure_new', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'arrival_new', 'type': DATETIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airplane_id_old', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airplane_id_new', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airline_id_old', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'airline_id_new', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'comment', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=200), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'flightno', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=8), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'from', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'to', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'departure', 'type': TIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'arrival', 'type': TIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airline_id', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'monday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'tuesday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'wednesday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'thursday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'friday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'saturday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'sunday', 'type': TINYINT(display_width=1), 'default': "'0'", 'comment': None, 'nullable': True, 'autoincrement': False}
+{'name': 'passenger_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': True}
+{'name': 'passportno', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=9), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'firstname', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'lastname', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'passenger_id', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'birthdate', 'type': DATE(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'sex', 'type': CHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=1), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'street', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'city', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'zip', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'country', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=100), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'emailaddress', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=120), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'telephoneno', 'type': VARCHAR(charset='utf8mb4', collation='utf8mb4_unicode_ci', length=30), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'log_date', 'type': DATE(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'time', 'type': TIME(), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'station', 'type': INTEGER(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
+{'name': 'temp', 'type': DECIMAL(precision=3, scale=1), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'humidity', 'type': DECIMAL(precision=4, scale=1), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'airpressure', 'type': DECIMAL(precision=10, scale=2), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'wind', 'type': DECIMAL(precision=5, scale=2), 'default': None, 'comment': None, 'nullable': False}
+{'name': 'weather', 'type': ENUM('Nebel-Schneefall', 'Schneefall', 'Regen', 'Regen-Schneefall', 'Nebel-Regen', 'Nebel-Regen-Gewitter', 'Gewitter', 'Nebel', 'Regen-Gewitter', charset='utf8mb4', collation='utf8mb4_unicode_ci'), 'default': None, 'comment': None, 'nullable': True}
+{'name': 'winddirection', 'type': SMALLINT(), 'default': None, 'comment': None, 'nullable': False, 'autoincrement': False}
