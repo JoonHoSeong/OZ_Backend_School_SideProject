@@ -34,8 +34,8 @@ def main() :
     tables = inspector.get_table_names()
 
     table_detail = get_table_detail(tables, inspector)
-    # for table_name in commandData['table_names'].split(', ') :
-    for table_name in tables :
+    for table_name in commandData['table_names'].split(', ') :
+    # for table_name in tables : #For Test
         if table_name not in tables :
             print(f'{table_name}테이블은 데이터 베이스에 존재하지 않는 테이블 이름 입니다.')
             continue
