@@ -5,8 +5,8 @@ from sqlalchemy import MetaData #메타데이터를 받아오기 위한 라이�
 from sqlalchemy.engine import reflection #데이터 베이스 내의 정보를 가져오기 위한 라이브러리
 from faker import Faker #더미데이터만들기 위해 사용
 
-from dummymaker_mysql_refactoring.control_table import * #데이터를 DB에 적용
-from dummymaker_mysql_refactoring.create_dummy_data import * #더미데이터 생성
+from tools.control_table import * #데이터를 DB에 적용
+from tools.create_dummy_data import * #더미데이터 생성
 
 
 def main() :

@@ -95,7 +95,6 @@ def create_dummy_data_list(table_name, dummy_num, table_detail) :
             del data_dict['type']
             dummy_data =generate_dummy_data(data_dict, fake)
             if dummy_data == 'unique_constraints' :
-                print('unique_constraints')
                 return datas
             temp[data_dict['name']] =  dummy_data
         datas.append(temp)

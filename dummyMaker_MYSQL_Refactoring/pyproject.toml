@@ -11,6 +11,7 @@ sqlalchemy = "^2.0.30"
 faker = "^25.1.0"
 mypysql = "^0.1.7"
 ipykernel = "^6.29.4"
+cryptography = "^42.0.7"
 
 
 [build-system]
