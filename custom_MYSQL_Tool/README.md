@@ -14,14 +14,14 @@
 5. 하드코딩이 아닌 SQLAlchemy를 통해 각 테이블과 컬럼의 조건 및 이름을 받아서 생성 할 수 있어야함
 
 ## Default  Function
-[ X ] config 파일에 여러개의 DB 접속정보를 입력하고, DB접속정보명(Unique)을 이용해서 어떤 DB의 데이터를 조회할 건지 지정할 수 있음  
-[ ] 특정 데이터베이스에 속한 schema 목록 반환 함수  
-[ ] 특정 이터베이스의 schema에 속한 테이블 목록 반환 함수  
-[ ] 특정 데이터베이스의 schema에 속한 뷰 목록 반환 함수  
-[ ] 특정 데이터베이스의 schema에 속한 테이블 목록과 테이블 별 컬럼정보, 코멘트를 같이 반환하는 함수  
-[ ] 특정 데이터베이스의 schema에 속한 뷰 목록과 뷰 별 컬럼정보, 코멘트를 같이 반환하는 함수  
-[ ] 특정 테이블의 컬럼정보, 코멘트를 조회하는 함수  
-[ ] 특정 테이블의 DDL 스크립트 생성 함수  
+- [x] config 파일에 여러개의 DB 접속정보를 입력하고, DB접속정보명(Unique)을 이용해서 어떤 DB의 데이터를 조회할 건지 지정할 수 있음  
+- [ ] 특정 데이터베이스에 속한 schema 목록 반환 함수  
+- [ ] 특정 이터베이스의 schema에 속한 테이블 목록 반환 함수  
+- [ ] 특정 데이터베이스의 schema에 속한 뷰 목록 반환 함수  
+- [ ] 특정 데이터베이스의 schema에 속한 테이블 목록과 테이블 별 컬럼정보, 코멘트를 같이 반환하는 함수  
+- [ ] 특정 데이터베이스의 schema에 속한 뷰 목록과 뷰 별 컬럼정보, 코멘트를 같이 반환하는 함수  
+- [ ] 특정 테이블의 컬럼정보, 코멘트를 조회하는 함수  
+- [ ] 특정 테이블의 DDL 스크립트 생성 함수  
 
 ## Additional Function
 
@@ -38,10 +38,9 @@ poetry install
 `
 poetry run python tests/main.py
 `  
-## [제작과정 Blog](https://slowprogramer.tistory.com/entry/dummyDataMkaer-SQLAlcehmy%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%94%EB%AF%B8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%83%9D%EC%84%B1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-MySQL)
 
 ## Tree
-![title](https://github.com/JoonHoSeong/OZ_Backend_School_SideProject/blob/main/dummyMaker_MYSQL_Refactoring/images/tree.png)   
+![title]()   
 
 
 ## ERD
