@@ -1,0 +1,11 @@
+{
+    "mysql-login" : {
+        "db_type" : "mysql+pymysql",
+        "user_name" : "root",
+        "user_pw" : "root",
+        "db_server" : "localhost",
+        "db_port" : "3306",
+        "db_name" : "airportdb",
+        "charset" : "utf8mb4"
+    }
+}
